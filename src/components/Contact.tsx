@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     const subject = encodeURIComponent(`Message from ${formData.name}`);
     const body = encodeURIComponent(formData.message);
-    const gmailUrl = `https://mail.google.com/mail/?view=cm&to=s.ayush3925@gmail.com&su=${subject}&body=${body}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&to=s.ayushvyas3925@gmail.com&su=${subject}&body=${body}`;
     window.open(gmailUrl, '_blank');
   };
 
@@ -36,8 +36,8 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "s.ayush3925@gmail.com",
-      href: "mailto:s.ayush3925@gmail.com",
+      value: "s.ayushvyas3925@gmail.com",
+      href: "mailto:s.ayushvyas3925@gmail.com",
       color: "purple"
     },
     {
