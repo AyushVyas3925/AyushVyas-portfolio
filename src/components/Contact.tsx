@@ -21,7 +21,8 @@ const Contact = () => {
     e.preventDefault();
     const subject = encodeURIComponent(`Message from ${formData.name}`);
     const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
-    window.location.href = `mailto:s.ayush3925@gmail.com?subject=${subject}&body=${body}`;
+    const gmailUrl = `https://mail.google.com/mail/?view=cm&to=s.ayush3925@gmail.com&su=${subject}&body=${body}`;
+    window.open(gmailUrl, '_blank');
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
