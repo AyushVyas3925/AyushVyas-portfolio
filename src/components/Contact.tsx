@@ -41,13 +41,6 @@ const Contact = () => {
       color: "purple"
     },
     {
-      icon: <MessageCircle className="w-6 h-6" />,
-      label: "WhatsApp",
-      value: "+91 8000634119",
-      href: "https://wa.me/918000634119",
-      color: "green"
-    },
-    {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
       value: "ayush-vyas-287980286",
