@@ -47,6 +47,127 @@ const Blog = () => {
       category: "Linux",
       image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
       link: "https://medium.com/@s.ayushvyas3925/to-add-more-terminals-and-gui-interfaces-in-linux-a47b89ef20c4"
+    },
+    // 10 new blogs below
+    {
+      id: 4,
+      title: "Setting Up Docker Inside Docker (DinD) Using Official Docker-in-Docker Image",
+      excerpt: "Step-by-step guide to running Docker inside Docker using the official DinD image.",
+      content: "Learn how to set up Docker-in-Docker (DinD) using the official Docker image. This article covers configuration, security considerations, and practical use cases for running Docker containers within containers.",
+      author: "Ayush Vyas",
+      date: "2024-12-14",
+      readTime: "7 min read",
+      category: "Docker",
+      image: "https://images.pexels.com/photos/6804579/pexels-photo-6804579.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/setting-up-docker-inside-docker-dind-using-official-docker-in-docker-image-ce1f07b83774"
+    },
+    {
+      id: 5,
+      title: "5 Popular GUI Programs in Linux and the Terminal Commands Behind Them",
+      excerpt: "Discover the terminal commands powering your favorite Linux GUI applications.",
+      content: "This article explores five widely-used GUI programs in Linux and reveals the terminal commands that run behind the scenes. Perfect for users who want to bridge the gap between graphical and command-line interfaces.",
+      author: "Ayush Vyas",
+      date: "2024-12-12",
+      readTime: "6 min read",
+      category: "Linux",
+      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/5-popular-gui-programs-in-linux-and-the-terminal-commands-behind-them-31ef2b08d82c"
+    },
+    {
+      id: 6,
+      title: "5 Popular GUI Programs in Linux and the Terminal Commands Behind Them",
+      excerpt: "Explore the connection between Linux GUIs and their terminal counterparts.",
+      content: "A practical look at how popular Linux GUI applications are powered by terminal commands, helping users understand and leverage both interfaces for productivity.",
+      author: "Ayush Vyas",
+      date: "2024-12-10",
+      readTime: "5 min read",
+      category: "Linux",
+      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/how-companies-are-leveraging-docker-real-world-case-studies-64cdb3bbc4ff"
+    },
+    {
+      id: 7,
+      title: "Creating a Git Repository and Pushing to GitHub: A Step-by-Step Guide",
+      excerpt: "Beginner's guide to creating a Git repository and pushing code to GitHub.",
+      content: "This tutorial walks you through the process of initializing a Git repository, making your first commit, and pushing your code to GitHub. Ideal for new developers and students.",
+      author: "Ayush Vyas",
+      date: "2024-12-08",
+      readTime: "6 min read",
+      category: "Git",
+      image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/creating-a-git-repository-and-pushing-to-github-a-step-by-step-guide-5b9a1d04ab26"
+    },
+    {
+      id: 8,
+      title: "The Command Working Behind the Ctrl+C and Ctrl+Z Interrupt Signals",
+      excerpt: "Understand the Linux commands and signals behind Ctrl+C and Ctrl+Z.",
+      content: "A deep dive into how Linux handles interrupt signals like Ctrl+C and Ctrl+Z, including the commands and processes involved. Great for users wanting to understand process management.",
+      author: "Ayush Vyas",
+      date: "2024-12-06",
+      readTime: "4 min read",
+      category: "Linux",
+      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/the-command-working-behind-the-ctrl-c-and-ctrl-z-interrupt-signals-9ca3a0d1e816"
+    },
+    {
+      id: 9,
+      title: "Why Top Companies Use Linux — And the Benefits They Reap",
+      excerpt: "Explore why leading companies choose Linux and the advantages it brings.",
+      content: "This article discusses the reasons top companies adopt Linux, highlighting the benefits such as security, flexibility, and cost-effectiveness. Includes real-world examples and industry insights.",
+      author: "Ayush Vyas",
+      date: "2024-12-04",
+      readTime: "7 min read",
+      category: "Linux",
+      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/why-top-companies-use-linux-and-the-benefits-they-reap-cf07d4f8d9db"
+    },
+    {
+      id: 10,
+      title: "Running Graphical Software in Docker Containers",
+      excerpt: "How to run GUI applications inside Docker containers.",
+      content: "A guide to running graphical (GUI) software within Docker containers, including setup, configuration, and troubleshooting tips for a seamless experience.",
+      author: "Ayush Vyas",
+      date: "2024-12-02",
+      readTime: "8 min read",
+      category: "Docker",
+      image: "https://images.pexels.com/photos/6804579/pexels-photo-6804579.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/running-graphical-software-in-docker-containers-f86ab405325d"
+    },
+    {
+      id: 11,
+      title: "Configuring Apache Webserver Inside Docker Container in CentOS 7",
+      excerpt: "Step-by-step guide to setting up Apache in a Dockerized CentOS 7 environment.",
+      content: "Learn how to configure and run the Apache webserver inside a Docker container using CentOS 7. This article covers installation, configuration, and best practices.",
+      author: "Ayush Vyas",
+      date: "2024-11-30",
+      readTime: "6 min read",
+      category: "Docker",
+      image: "https://images.pexels.com/photos/6804579/pexels-photo-6804579.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/configuring-apache-webserver-inside-docker-container-in-centos-7-0c380217464e"
+    },
+    {
+      id: 12,
+      title: "How Modify the Icon or Emblem of Any Linux Software",
+      excerpt: "Customize your Linux applications by changing their icons or emblems.",
+      content: "A practical guide to modifying the icon or emblem of any Linux software, including step-by-step instructions and tips for desktop environment integration.",
+      author: "Ayush Vyas",
+      date: "2024-11-28",
+      readTime: "5 min read",
+      category: "Linux",
+      image: "https://images.pexels.com/photos/11035380/pexels-photo-11035380.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/how-modify-the-icon-or-emblem-of-any-linux-software-bb0d87364d6b"
+    },
+    {
+      id: 13,
+      title: "Git Branching Workflow: A Practical Guide to Feature Development and Seamless Integration",
+      excerpt: "Master Git branching strategies for efficient development and integration.",
+      content: "This article provides a practical guide to using Git branching workflows, including feature branches, pull requests, and best practices for seamless integration in collaborative projects.",
+      author: "Ayush Vyas",
+      date: "2024-11-26",
+      readTime: "7 min read",
+      category: "Git",
+      image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+      link: "https://medium.com/@s.ayushvyas3925/git-branching-workflow-a-practical-guide-to-feature-development-and-seamless-integration-d5c0cd8b6f39"
     }
   ];
 
