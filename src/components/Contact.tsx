@@ -19,11 +19,9 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    setIsSubmitted(true);
-    setTimeout(() => setIsSubmitted(false), 3000);
-    setFormData({ name: '', email: '', message: '' });
+    const subject = encodeURIComponent(`Message from ${formData.name}`);
+    const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\nMessage: ${formData.message}`);
+    window.location.href = `mailto:s.ayush3925@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -44,8 +42,8 @@ const Contact = () => {
     {
       icon: <MessageCircle className="w-6 h-6" />,
       label: "WhatsApp",
-      value: "+91 8319319455",
-      href: "https://wa.me/918319319455",
+      value: "+91 8000634119",
+      href: "https://wa.me/918000634119",
       color: "green"
     },
     {

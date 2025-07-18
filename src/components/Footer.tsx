@@ -24,7 +24,7 @@ const Footer = () => {
     },
     {
       icon: <MessageCircle className="w-5 h-5" />,
-      href: "https://wa.me/918319319455",
+      href: "https://wa.me/918000634119",
       label: "WhatsApp",
       color: "hover:text-green-400"
     },
